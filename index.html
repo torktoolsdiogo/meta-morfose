@@ -425,6 +425,8 @@ footer *{color:inherit}
 </head>
 <body>
 
+<div class="proto-aviso" style="background:#fcd219;color:#111;text-align:center;font:600 14px/1.4 system-ui,sans-serif;padding:8px 12px">Protótipo META-MORFOSE · proposta da squad Comercial para 2027 · não é o site oficial da Tork Tools</div>
+
 <!-- Barra só do protótipo: simula o QR Code de cada produto. Remover na versão final. -->
 <div class="proto"><div class="wrap"><details><summary>Protótipo · simular QR Code</summary>
   <label>Abrir como se o QR fosse de:
@@ -879,7 +881,7 @@ function renderStores(){
    ===================================================================== */
 const CONFIG_AGENTE = {
   // URL do Chat Trigger do n8n (modo "Embedded Chat"). Vazio = modo guiado.
-  webhook: "http://127.0.0.1:8787/chat", // ponte no Mac (ponte-claude/). Fora do ar = modo guiado
+  webhook: "", // versão de apresentação (GitHub Pages): modo guiado. Original: http://127.0.0.1:8787/chat
   // Link do WhatsApp do SAC (ex.: https://wa.me/5511999999999)
   sacWhatsapp: "https://api.whatsapp.com/send/?phone=5512997550066&text&type=phone_number&app_absent=0",
   // Diferença mínima para avisar que outro canal está mais barato (0.10 = 10%)
